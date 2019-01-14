@@ -6,8 +6,10 @@ class datatypesq2
 {
   public static void main(String args[]) 
   {
-    
+    int i;
+    do{
      Scanner consoleInput = new Scanner(System.in);
+     
      System.out.println("number for corresponding month is  " );
     int day= consoleInput.nextInt();
     switch(day){
@@ -51,7 +53,15 @@ class datatypesq2
         System.out.println("wrong number entered.PLEASE enter number between 1 and 12");
 
     }
+     System.out.println(" do you want to continue.prees 1 to continue and 0 to exit");
+      i= consoleInput.nextInt();
+     }while(i==1);
 
+ 
+
+
+        
+        
 
     
   }

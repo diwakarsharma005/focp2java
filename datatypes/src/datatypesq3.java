@@ -11,8 +11,10 @@ class datatypesq3
     System.out.println("enter a number  " );
     double num1 = consoleInput.nextDouble();
 
-     System.out.println("re-enter above number ");
+     System.out.println("enter another number ");
      double num2 = consoleInput.nextDouble();
+     num1 = Math.round(num1*1000);
+     num2 = Math.round(num2*1000);
 
 
      if(num1==num2){
